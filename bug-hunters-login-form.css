@@ -1,0 +1,202 @@
+* {
+  color: white;
+}
+nav {
+  background-color: rgba(121, 197, 235, 0.608);
+  margin-left: 300px;
+  width: 500px;
+  font-size: larger;
+}
+nav a {
+  padding-left: 30px;
+  color: white;
+  text-align: center;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+Aside {
+  width: 200px;
+  height: 675px;
+  background-color: hsla(208, 52%, 33%, 0.883);
+  margin: 0;
+}
+#aside-p1 {
+  font-size: x-large;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: 4px;
+  width: 170px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+#aside-start {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 99.2%;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 4px;
+}
+#aside-start:hover {
+  background-color: rgb(18, 22, 79);
+  text-decoration: underline;
+}
+#aside-prac {
+  font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+  width: 85%;
+  font-size: large;
+  text-align: center;
+  padding-bottom: 4px;
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 4px;
+}
+#aside-prac:hover {
+  background-color: rgb(18, 22, 79);
+  text-decoration: underline;
+}
+sup {
+  background-color: yellow;
+  color: black;
+  padding: 2px;
+  border-radius: 4px;
+}
+sup:hover {
+  text-decoration: underline;
+}
+main {
+  background-image: url(./bgimage.webp);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#legend1 {
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+  margin-left: 65px;
+}
+#top {
+  border-top: 3px double white;
+  border-left: 3px double white;
+  border-right: 3px double white;
+}
+#sp {
+  font-size: 13px;
+  margin-left: 80px;
+}
+#login {
+  width: 600px;
+  border: 3px solid;
+  margin-left: 80px;
+  height: 500px;
+  width: 1050px;
+  background-color: rgba(0, 0, 0, 0.557);
+  display: flex;
+}
+#contact {
+  margin-left: 980px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(10, 15, 82);
+  font-size: large;
+}
+#contact:hover {
+  background-color: hsla(208, 52%, 33%, 0.9);
+}
+#small-info {
+  width: 290px;
+  display: inline-block;
+  margin-left: 100px;
+}
+#report {
+  margin-left: 110px;
+  background-color: gray;
+  height: 35px;
+  border-radius: 8px;
+  font-size: medium;
+}
+#report:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: black;
+}
+
+#hunting {
+  margin-left: 100px;
+}
+#com {
+  margin-left: 55px;
+}
+form {
+  margin-top: 10px;
+  width: 550px;
+  height: 450px;
+  margin-left: 30px;
+}
+#log-in {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+label {
+  margin-left: 125px;
+}
+input {
+  padding-left: 30px;
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  margin-left: 120px;
+}
+#log--in {
+  background-color: rgb(49, 239, 39);
+  width: 337px;
+  height: 35px;
+  border-radius: 7px;
+  font-size: medium;
+  border-color: rgb(49, 239, 39);
+}
+#forgot {
+  color: rgb(121, 197, 235);
+  margin-left: 240px;
+}
+#forgot:hover {
+  color: white;
+}
+#need {
+  margin-left: 115px;
+  padding-top: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 3px solid rgb(121, 197, 235);
+  padding-left: 50px;
+  width: 300px;
+  display: inline-block;
+  background-color: rgb(18, 46, 61);
+  height: 30px;
+}
+
+#signup {
+  color: rgb(121, 197, 235);
+}
+#signup:hover {
+  color: white;
+}
+input:enabled {
+  background-color: rgb(248, 241, 241);
+  color: rgb(5, 34, 20);
+  border-color: rgb(121, 197, 235);
+  border-width: 4px;
+}
